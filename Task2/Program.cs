@@ -7,6 +7,9 @@ Console.WriteLine("Введите число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = b;
-if(b>a) max=b;
-if(b>a) min=a;
+if(b>a) 
+{
+    max=b;
+    min=a;
+}
 Console.WriteLine(max + " больше " + min);
